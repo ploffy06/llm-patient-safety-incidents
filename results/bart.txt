@@ -1,0 +1,139 @@
+idx: 0, id: 87570c21-6dbd-4e26-a008-768690b33be0
+actual: medication error, is_correct: True
+[0.7537960410118103, 0.05904802680015564, 0.04298505187034607, 0.04038720205426216, 0.03284134715795517, 0.029761387035250664, 0.029444154351949692, 0.006769136991351843, 0.0018877736292779446, 0.00154112558811903, 0.0015387545572593808]
+['medication error', 'clinical handover error', 'documentation error', 'missing patient', 'communication error', 'equipment error', 'careless oversight', 'technology error', 'allergy', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 1, id: afdab8f6-3754-48b1-b602-d739151c356e
+actual: allergy, is_correct: True
+[0.39281269907951355, 0.13963887095451355, 0.10591162741184235, 0.09951647371053696, 0.08017954230308533, 0.05954988673329353, 0.05938388779759407, 0.05536481365561485, 0.0029249091167002916, 0.0026643865276128054, 0.002052872907370329]
+['allergy', 'medication error', 'communication error', 'missing patient', 'documentation error', 'clinical handover error', 'technology error', 'careless oversight', 'equipment error', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 2, id: 6e1e4767-0cf9-4d14-ac2a-2cfa34502ff9
+actual: surgical error, is_correct: True
+[0.3455294966697693, 0.33293813467025757, 0.0658726841211319, 0.06399455666542053, 0.05551213398575783, 0.039504971355199814, 0.03694175183773041, 0.03306493163108826, 0.01220142561942339, 0.007963433861732483, 0.006476494017988443]
+['surgical error', 'equipment error', 'technology error', 'careless oversight', 'documentation error', 'clinical handover error', 'communication error', 'missing patient', 'allergy', 'medication error', 'sharps disposal error']
+---------
+
+idx: 3, id: 6e7075e0-f556-41f5-8802-181aac5566a3
+actual: technology error, is_correct: False
+[0.5024874210357666, 0.1445591151714325, 0.13870547711849213, 0.057956088334321976, 0.050678327679634094, 0.04483460262417793, 0.03249188885092735, 0.009405522607266903, 0.007794169709086418, 0.0062996745109558105, 0.004787720274180174]
+['equipment error', 'documentation error', 'technology error', 'careless oversight', 'missing patient', 'clinical handover error', 'communication error', 'medication error', 'allergy', 'surgical error', 'sharps disposal error']
+---------
+
+idx: 4, id: 84a35e2e-0030-4848-a380-ddb4ea1b2a48
+actual: medication error, is_correct: False
+[0.32600879669189453, 0.2139746993780136, 0.12500138580799103, 0.10115598142147064, 0.062300823628902435, 0.06177882105112076, 0.04074643552303314, 0.03971600532531738, 0.014909309335052967, 0.008656264282763004, 0.005751416552811861]
+['communication error', 'medication error', 'clinical handover error', 'careless oversight', 'documentation error', 'missing patient', 'equipment error', 'technology error', 'allergy', 'surgical error', 'sharps disposal error']
+---------
+
+idx: 5, id: 8cb8488e-0d84-4445-be0c-bd2d343191c4
+actual: missing patient, is_correct: True
+[0.6611242294311523, 0.07984792441129684, 0.06291656196117401, 0.05313178151845932, 0.047366756945848465, 0.04734198749065399, 0.0228789784014225, 0.008133884519338608, 0.006520808674395084, 0.005971021484583616, 0.004766013473272324]
+['missing patient', 'equipment error', 'communication error', 'documentation error', 'careless oversight', 'technology error', 'clinical handover error', 'allergy', 'medication error', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 6, id: d7590dc4-15c5-4efe-ae40-b036b678b06c
+actual: documentation error, is_correct: False
+[0.3458513021469116, 0.30531466007232666, 0.14866413176059723, 0.060067541897296906, 0.04834742471575737, 0.043669577687978745, 0.023168176412582397, 0.008297311142086983, 0.006402832921594381, 0.005863367114216089, 0.004353690426796675]
+['technology error', 'documentation error', 'missing patient', 'communication error', 'careless oversight', 'clinical handover error', 'equipment error', 'medication error', 'allergy', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 7, id: 89f9308a-fc74-4f22-96fe-209287b451c5
+actual: communication error, is_correct: True
+[0.4774133861064911, 0.2118886262178421, 0.14134585857391357, 0.08158013969659805, 0.046313174068927765, 0.025864925235509872, 0.008622106164693832, 0.002244312549009919, 0.0017034694319590926, 0.0016478702891618013, 0.0013760874280706048]
+['communication error', 'missing patient', 'clinical handover error', 'documentation error', 'medication error', 'careless oversight', 'technology error', 'allergy', 'equipment error', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 8, id: f99c9a7a-f3ab-4e20-a791-ef53336f2f61
+actual: careless oversight, is_correct: False
+[0.4044676423072815, 0.3069620430469513, 0.10664235800504684, 0.08026637881994247, 0.029970908537507057, 0.024853479117155075, 0.021509191021323204, 0.009944720193743706, 0.008574452251195908, 0.0038140418473631144, 0.0029947864823043346]
+['documentation error', 'communication error', 'clinical handover error', 'careless oversight', 'technology error', 'missing patient', 'surgical error', 'medication error', 'equipment error', 'sharps disposal error', 'allergy']
+---------
+
+idx: 9, id: f62a4b0b-c0de-49fb-b802-455c501602cb
+actual: careless oversight, is_correct: False
+[0.5804372429847717, 0.1659691035747528, 0.13820628821849823, 0.030177418142557144, 0.030103038996458054, 0.030019985511898994, 0.01730971969664097, 0.0029571708291769028, 0.0016980214277282357, 0.0016842412296682596, 0.0014377714833244681]
+['medication error', 'documentation error', 'communication error', 'technology error', 'clinical handover error', 'careless oversight', 'missing patient', 'equipment error', 'sharps disposal error', 'surgical error', 'allergy']
+---------
+
+idx: 10, id: ff04aefa-0e03-4f2e-9cff-951b2392ec5e
+actual: careless oversight, is_correct: False
+[0.3987417221069336, 0.17025545239448547, 0.1631574183702469, 0.11701313406229019, 0.05875345319509506, 0.03767412155866623, 0.019056521356105804, 0.015007194131612778, 0.009911847300827503, 0.005221215542405844, 0.005207902751863003]
+['medication error', 'clinical handover error', 'careless oversight', 'communication error', 'documentation error', 'missing patient', 'equipment error', 'technology error', 'allergy', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 11, id: a66a6f72-4256-4d88-8798-687917d05092
+actual: clinical handover error, is_correct: False
+[0.6679559350013733, 0.22892844676971436, 0.0495641827583313, 0.030172307044267654, 0.014052482321858406, 0.0023453817702829838, 0.002141898963600397, 0.0016344744944944978, 0.001280179712921381, 0.0010117285419255495, 0.0009129946120083332]
+['communication error', 'missing patient', 'clinical handover error', 'careless oversight', 'documentation error', 'surgical error', 'technology error', 'allergy', 'equipment error', 'medication error', 'sharps disposal error']
+---------
+
+idx: 12, id: 9ea1eca0-7bc3-4f80-a8fc-41cee405e46b
+actual: medication error, is_correct: True
+[0.5875277519226074, 0.20863257348537445, 0.06644739210605621, 0.037306997925043106, 0.03566388413310051, 0.034531377255916595, 0.01750326342880726, 0.007130880374461412, 0.0021795399952679873, 0.001786379492841661, 0.001289824489504099]
+['medication error', 'communication error', 'documentation error', 'clinical handover error', 'technology error', 'careless oversight', 'missing patient', 'equipment error', 'allergy', 'sharps disposal error', 'surgical error']
+---------
+
+idx: 13, id: 729095f3-e227-47b0-89c2-0363f7c1dec1
+actual: sharps disposal error, is_correct: True
+[0.7947839498519897, 0.08277857303619385, 0.03722142428159714, 0.028298208490014076, 0.015419503673911095, 0.010281938128173351, 0.008572102524340153, 0.007582486607134342, 0.006724243052303791, 0.004517148248851299, 0.003820385318249464]
+['sharps disposal error', 'equipment error', 'careless oversight', 'clinical handover error', 'communication error', 'medication error', 'technology error', 'documentation error', 'missing patient', 'surgical error', 'allergy']
+---------
+
+idx: 14, id: af32c65b-40e9-41d4-8524-669634c465e1
+actual: communication error, is_correct: True
+[0.5504128336906433, 0.16057826578617096, 0.1031978651881218, 0.08044550567865372, 0.04983968660235405, 0.014550650492310524, 0.012765605002641678, 0.00942805502563715, 0.0068426881916821, 0.006328718736767769, 0.005610218271613121]
+['communication error', 'clinical handover error', 'missing patient', 'surgical error', 'documentation error', 'careless oversight', 'technology error', 'medication error', 'allergy', 'equipment error', 'sharps disposal error']
+---------
+
+idx: 15, id: 284ea2f7-c6ad-4606-ac71-eeb1d75726c5
+actual: equipment error, is_correct: True
+[0.556110680103302, 0.14948397874832153, 0.07126028835773468, 0.0643882155418396, 0.059542033821344376, 0.03923904523253441, 0.03864869847893715, 0.006993783637881279, 0.006793736945837736, 0.004181501921266317, 0.0033580062445253134]
+['equipment error', 'communication error', 'careless oversight', 'technology error', 'clinical handover error', 'documentation error', 'missing patient', 'medication error', 'allergy', 'surgical error', 'sharps disposal error']
+---------
+
+idx: 16, id: 5768e035-557b-49d8-bf3d-808379549ff6
+actual: technology error, is_correct: False
+[0.4696556627750397, 0.2674357295036316, 0.08912025392055511, 0.08061566203832626, 0.03781246766448021, 0.03671955689787865, 0.010469135828316212, 0.004871772602200508, 0.0015235214959830046, 0.0010104556567966938, 0.00076575722778216]
+['medication error', 'technology error', 'communication error', 'missing patient', 'clinical handover error', 'careless oversight', 'equipment error', 'documentation error', 'allergy', 'surgical error', 'sharps disposal error']
+---------
+
+idx: 17, id: 4a85e77b-6374-4996-a769-49fdcd7459a6
+actual: allergy, is_correct: True
+[0.4602227509021759, 0.21581122279167175, 0.08339881896972656, 0.05569673702120781, 0.051116693764925, 0.04711638018488884, 0.03325369581580162, 0.024481723085045815, 0.020979205146431923, 0.0047369045205414295, 0.0031858128495514393]
+['allergy', 'medication error', 'documentation error', 'clinical handover error', 'communication error', 'careless oversight', 'equipment error', 'missing patient', 'technology error', 'surgical error', 'sharps disposal error']
+---------
+
+idx: 18, id: 7a8e545f-96c1-402c-9758-1c5a01116c15
+actual: documentation error, is_correct: True
+[0.2659611999988556, 0.20705322921276093, 0.20490117371082306, 0.1853332668542862, 0.08170654624700546, 0.03428877517580986, 0.006943007465451956, 0.004179914947599173, 0.00388921145349741, 0.0029347422532737255, 0.002808918012306094]
+['documentation error', 'surgical error', 'missing patient', 'clinical handover error', 'communication error', 'careless oversight', 'technology error', 'medication error', 'allergy', 'sharps disposal error', 'equipment error']
+---------
+
+idx: 19, id: 34eef3a1-7699-47e6-86ed-9dbbb0c16e65
+actual: technology error, is_correct: True
+[0.27507483959198, 0.23889628052711487, 0.17434419691562653, 0.0717194601893425, 0.056614041328430176, 0.04918982833623886, 0.04281630739569664, 0.029755208641290665, 0.02301301620900631, 0.019832458347082138, 0.018744366243481636]
+['technology error', 'equipment error', 'missing patient', 'careless oversight', 'clinical handover error', 'documentation error', 'communication error', 'medication error', 'surgical error', 'allergy', 'sharps disposal error']
+---------
+
+accuracy:  0.6
+                         precision    recall  f1-score   support
+
+                allergy       1.00      1.00      1.00         2
+     careless oversight       0.00      0.00      0.00         3
+  sharps disposal error       0.00      0.00      0.00         1
+        equipment error       0.50      1.00      0.67         2
+         surgical error       0.50      0.50      0.50         2
+    communication error       0.50      1.00      0.67         1
+clinical handover error       0.40      0.67      0.50         3
+       medication error       1.00      1.00      1.00         1
+        missing patient       1.00      1.00      1.00         1
+       technology error       1.00      1.00      1.00         1
+    documentation error       0.50      0.33      0.40         3
+
+               accuracy                           0.60        20
+              macro avg       0.58      0.68      0.61        20
+           weighted avg       0.51      0.60      0.53        20
+

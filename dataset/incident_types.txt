@@ -1,0 +1,20 @@
+medication error
+allergy
+surgical error
+technology error
+medication error
+missing patient
+documentation error
+communication error
+careless oversight
+careless oversight
+careless oversight
+clinical handover error
+medication error
+sharps disposal error
+communication error
+equipment error
+technology error
+allergy
+documentation error
+technology error
