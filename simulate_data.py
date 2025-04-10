@@ -12,6 +12,10 @@ lines = file.readlines()
 file.close
 incident_types = [line.replace("\n", "") for line in lines]
 
+file = open("dataset/causes.txt", "r")
+lines = file.readlines()
+file.close
+causes = [line.replace("\n", "") for line in lines]
 
 ids = [uuid.uuid4() for _ in range(len(reports))]
 
@@ -22,21 +26,22 @@ reports_df = pd.DataFrame(
     }
 )
 
-incident_types_df = pd.DataFrame(
+targets_df = pd.DataFrame(
     {
         "id": ids,
-        "incident_type": incident_types
+        "incident_type": incident_types,
+        "cause": causes
     }
 )
 
 reports_df.to_csv("dataset/dataset.csv")
-incident_types_df.to_csv("dataset/incident_types.csv")
+targets_df.to_csv("dataset/targets.csv")
 
 # see distribution of word count
 word_counts = sorted(list(reports_df["description"].str.count(" ") + 1))
 
 plt.figure(figsize=(10, 5))
-plt.hist(word_counts, bins=range(min(word_counts), max(word_counts) + 2), edgecolor='black', align='left')
+plt.hist(word_counts, bins=range(min(word_counts), max(word_counts) + 2), edgecolor='black')
 plt.title('Distribution of Word Count')
 plt.xlabel('Word Count')
 plt.ylabel('Frequency')
@@ -49,7 +54,7 @@ plt.savefig('diagrams/word_counts.png')
 incident_types = sorted(incident_types)
 
 plt.figure(figsize=(10,5))
-plt.hist(incident_types, bins=len(set(incident_types)), edgecolor='black', alpha=0.7)
+plt.hist(incident_types, bins=len(set(incident_types)), edgecolor='black')
 plt.title("Incident Type Distribution")
 plt.xlabel("Incident Type")
 plt.ylabel("Frequency")

@@ -1,0 +1,21 @@
+,id,incident_type,cause
+0,838934fd-1a6e-4e65-9cee-89f663c32d33,medication error,medication meant for a different patient was placed on the wrong medication trolley
+1,66edaf22-2a63-4263-aa44-cf79e1a3fa6f,allergy,allergy history was not flagged in imaging request form
+2,d7cdb9d7-ecb7-4677-ae40-10fb9619af4b,surgical error,instrument had been repackaged without going through full sterilization
+3,1f427a24-27ad-459c-9ae7-f667f56226da,technology error,the defibrillator failed to power on
+4,8275cd43-0215-4126-8d5a-8ce8a3448b50,medication error,"inpatient undergoing chemotherapy was mistakenly served a meal containing grapefruit, which interacts negatively with their treatment"
+5,23e2f3a6-e428-454c-aa0e-7c596dad22b3,missing patient,The exit alarm was found to be non-functional due to a disconnected battery
+6,149a070b-b961-416c-9f9e-8c615951c817,documentation error,"mislabeled a blood sample, resulting in incorrect results being recorded"
+7,0a3ce3c6-d89e-46e4-95a8-aec528760200,communication error,miscommunication between the physician and radiology team
+8,442ce7ba-867a-427a-83f0-05de9c0d189d,careless oversight,patient in the emergency department was mistakenly catheterized
+9,62880225-6e8a-43dd-85d0-3a205e611b37,careless oversight,sedative was administered orally instead of sublingually
+10,39288dc5-12a9-4770-aa20-58141c0a2083,careless oversight,diabetic patient's insulin pen was shared between two patients on the same ward by mistake
+11,664dbcf3-f581-4d3d-b0e8-1b099a99f276,clinical handover error,patient recovering from abdominal surgery was not mobilized within the recommended time frame due to an oversight during handover
+12,ca972deb-685d-49c2-a32b-b9950ec52b31,medication error,Patient received oral potassium instead of IV due to a pharmacy packaging similarity
+13,4b48033d-48fc-4503-b334-2d38744ed1a2,sharps disposal error,child in the pediatric unit accessed a sharps disposal bin that had not been securely locked after a dressing change
+14,6eda4cac-7256-41be-9916-8b9cd808a253,communication error,patient with a language barrier misunderstood post-surgical instructions and removed their dressing prematurely
+15,5a4f415d-7411-4fa0-8f54-914a447e7b02,equipment error,respiratory therapist mistakenly connected an oxygen line to compressed air during a patient setup
+16,067c772d-a75c-4c72-bf35-cd758640032b,technology error,electronic prescription glitch
+17,096ec698-ea41-4197-b88d-d438bd1598bc,allergy,nurse accidentally used alcohol swabs containing chlorhexidine on a patient with a documented chlorhexidine allergy
+18,8f0ac346-973d-4191-8fa6-6a00ff419de7,documentation error,Patient was transferred to the operating theatre without having signed the consent form due to a breakdown in pre-operative checklist compliance
+19,49c4850a-9ee3-4926-9417-00d3e97b22a0,technology error,UPS battery system had not been maintained

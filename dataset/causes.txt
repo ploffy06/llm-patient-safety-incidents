@@ -1,0 +1,20 @@
+medication meant for a different patient was placed on the wrong medication trolley
+allergy history was not flagged in imaging request form
+instrument had been repackaged without going through full sterilization
+the defibrillator failed to power on
+inpatient undergoing chemotherapy was mistakenly served a meal containing grapefruit, which interacts negatively with their treatment
+The exit alarm was found to be non-functional due to a disconnected battery
+mislabeled a blood sample, resulting in incorrect results being recorded
+miscommunication between the physician and radiology team
+patient in the emergency department was mistakenly catheterized
+sedative was administered orally instead of sublingually
+diabetic patient's insulin pen was shared between two patients on the same ward by mistake
+patient recovering from abdominal surgery was not mobilized within the recommended time frame due to an oversight during handover
+Patient received oral potassium instead of IV due to a pharmacy packaging similarity
+child in the pediatric unit accessed a sharps disposal bin that had not been securely locked after a dressing change
+patient with a language barrier misunderstood post-surgical instructions and removed their dressing prematurely
+respiratory therapist mistakenly connected an oxygen line to compressed air during a patient setup
+electronic prescription glitch
+nurse accidentally used alcohol swabs containing chlorhexidine on a patient with a documented chlorhexidine allergy
+Patient was transferred to the operating theatre without having signed the consent form due to a breakdown in pre-operative checklist compliance
+UPS battery system had not been maintained
