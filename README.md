@@ -77,7 +77,7 @@ Roberta-base-squad2 is fine-tuned on RoBERTa base using SQuAD2 dataset for extra
 
 ![roberta similarity vs confidence](diagrams/roberta_sim_conf.png)
 
-To evaluate, I used cosine simality of the embedding vectors between actual and predicted. The results suggests that the model may be able to extract the correct information (high similarity score between 0.7-1), but it is not very confident (low confidence scores <0.4). This is likely because the training dataset is based on wikipedia articles, lacking the domain knowledge of patient safety incident reports.
+To evaluate, I used cosine similarity of the embedding vectors between actual and predicted. The results suggests that the model may be able to extract the correct information (high similarity score between 0.7-1), but it is not very confident (low confidence scores <0.4). This is likely because the training dataset is on wikipedia articles, lacking the domain knowledge of patient safety incident reports.
 
 ## Next Steps
 - larger dataset
