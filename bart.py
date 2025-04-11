@@ -1,6 +1,5 @@
 from transformers import pipeline
 import pandas as pd
-from helper import get_incident_types
 import matplotlib.pyplot as plt
 from sklearn import metrics
 
@@ -9,7 +8,7 @@ targets = list(pd.read_csv("dataset/targets.csv")["incident_type"])
 
 
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
-labels = get_incident_types()
+labels = sorted(list(set(targets)))
 predictions = []
 confidence_true = []
 confidence_false = []
@@ -34,7 +33,7 @@ for idx, row in df.iterrows():
     print("---------\n")
 
 print("accuracy: ", metrics.accuracy_score(targets, predictions))
-cr = metrics.classification_report(targets, predictions, target_names=labels)
+cr = metrics.classification_report(targets, predictions, labels=labels)
 print(cr)
 
 confusion_matrix = metrics.confusion_matrix(targets, predictions)
